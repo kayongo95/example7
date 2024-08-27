@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.lordicon.com/lordicon.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <script src="index.js" defer></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Simple Counter</h1>
+      <div class="cover">
+        <p id="counter">0</p>
+        <button id="plus" onclick="incrementCounter()">
+          <lord-icon
+            src="https://cdn.lordicon.com/pdsourfn.json"
+            trigger="hover"
+            style="width: 100px; height: 100px"
+          >
+          </lord-icon>
+          Increment
+        </button>
+        <button id="minus" onclick="decrementCounter()">
+          <lord-icon
+            src="https://cdn.lordicon.com/uwibpbyg.json"
+            trigger="hover"
+            style="width: 100px; height: 100px"
+          >
+          </lord-icon>
+          Decrement
+        </button>
+        <button id="reset" onclick="resetCounter()">
+          <lord-icon
+            src="https://cdn.lordicon.com/abaxrbtq.json"
+            trigger="hover"
+            style="width: 100px; height: 100px"
+          >
+          </lord-icon>
+          Reset
+        </button>
+        <!-- <button onclick="toggleDarkMode()">Toggle Dark Mode</button> -->
+        <!-- <div id="darkModeToggle" class="darkModeToggle"></div>
+            <div id="themeToggle" class="themeToggle"></div>
+            <div id="themeToggleText">Light Mode</div>
+            <div id="darkModeToggleText">Dark Mode</div>
+            <div id="themeToggleIcon"></div>
+            <div id="darkModeToggleIcon"></div>
+            <div id="themeToggleIconText">🌞</div>
+            <div id="darkModeToggleIconText">🌙</div> -->
+      </div>
+    </div>
+  </body>
+</html>
